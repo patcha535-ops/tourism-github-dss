@@ -1,0 +1,520 @@
+{
+ "aggregation": {
+  "national_weighted_mean": 100.0,
+  "max_abs_region_gap": 2.842170943040401e-14
+ },
+ "lever_identity_max_abs_error_thb": 7.275957614183426e-12,
+ "lever_slope": {
+  "n_positive": 69,
+  "min_slope_thb": -806.7898951153229,
+  "max_slope_thb": 36948.34989057728,
+  "min_ratio": 0.7952760864049565,
+  "max_ratio": 4.2954522258049925,
+  "median_ratio": 1.3394087079443353
+ },
+ "typology": {
+  "A": {
+   "n": 5,
+   "receipt_share": 71.68408363887463,
+   "visit_share": 33.059230680523456,
+   "examples": [
+    "Bangkok",
+    "Phuket",
+    "Chon Buri",
+    "Surat Thani"
+   ],
+   "mean_ps": 238.3427574872323
+  },
+  "B": {
+   "n": 8,
+   "receipt_share": 8.442894977371209,
+   "visit_share": 9.82923577243462,
+   "examples": [
+    "Chiang Mai",
+    "Phangnga",
+    "Songkhla",
+    "Samut Prakan"
+   ],
+   "mean_ps": 67.59486867220639
+  },
+  "C": {
+   "n": 2,
+   "receipt_share": 2.3107145742489164,
+   "visit_share": 2.4091606023988743,
+   "examples": [
+    "Chiang Rai",
+    "Trat"
+   ],
+   "mean_ps": 96.61755983812162
+  },
+  "D": {
+   "n": 62,
+   "receipt_share": 17.562306809505262,
+   "visit_share": 54.70237294464305,
+   "examples": [
+    "Prachuap Khiri Khan",
+    "Kanchanaburi",
+    "Phetchaburi",
+    "Rayong"
+   ],
+   "mean_ps": 30.06304954549928
+  }
+ },
+ "type_members": {
+  "A": [
+   "Bangkok",
+   "Chon Buri",
+   "Krabi",
+   "Phuket",
+   "Surat Thani"
+  ],
+  "B": [
+   "Samut Prakan",
+   "Chiang Mai",
+   "Nong Khai",
+   "Phangnga",
+   "Narathiwat",
+   "Pattani",
+   "Yala",
+   "Songkhla"
+  ],
+  "C": [
+   "Trat",
+   "Chiang Rai"
+  ],
+  "D": [
+   "Kanchanaburi",
+   "Nakhon Pathom",
+   "Prachuap Khiri Khan",
+   "Phetchaburi",
+   "Ratchaburi",
+   "Samut Songkhram",
+   "Samut Sakhon",
+   "Chai Nat",
+   "Nonthaburi",
+   "Pathum Thani",
+   "Phra Nakhon Si Ayutthaya",
+   "Lop Buri",
+   "Saraburi",
+   "Sing Buri",
+   "Suphan Buri",
+   "Ang Thong",
+   "Chanthaburi",
+   "Chachoengsao",
+   "Nakhon Nayok",
+   "Prachin Buri",
+   "Rayong",
+   "Sa Kaeo",
+   "Nan",
+   "Phayao",
+   "Phrae",
+   "Mae Hong Son",
+   "Lampang",
+   "Lamphun",
+   "Kamphaeng Phet",
+   "Tak",
+   "Nakhon Sawan",
+   "Phichit",
+   "Phitsanulok",
+   "Phetchabun",
+   "Sukhothai",
+   "Uttaradit",
+   "Uthai Thani",
+   "Kalasin",
+   "Khon Kaen",
+   "Nakhon Phanom",
+   "Bueng Kan",
+   "Maha Sarakham",
+   "Loei",
+   "Sakon Nakhon",
+   "Nong Bua Lam Phu",
+   "Udon Thani",
+   "Chaiyaphum",
+   "Nakhon Ratchasima",
+   "Buri Ram",
+   "Mukdahan",
+   "Yasothon",
+   "Roi Et",
+   "Si Sa Ket",
+   "Surin",
+   "Amnat Charoen",
+   "Ubon Ratchathani",
+   "Chumphon",
+   "Nakhon Si Thammarat",
+   "Ranong",
+   "Trang",
+   "Phatthalung",
+   "Satun"
+  ]
+ },
+ "risk": {
+  "cv_min": 0.04107302535202642,
+  "cv_max": 0.3795849838097608,
+  "cv_median": 0.0950280309537855,
+  "spearman_ps_risk": 0.049581996950418,
+  "spearman_ps_risk_p": 0.6684855150412509
+ },
+ "stability_vs_lambda0": {
+  "0.25": {
+   "spearman": 0.986907829013092,
+   "kendall": 0.9166097060833902,
+   "top10_retained": 10
+  },
+  "0.5": {
+   "spearman": 0.9601714075398285,
+   "kendall": 0.8489405331510594,
+   "top10_retained": 10
+  },
+  "1.0": {
+   "spearman": 0.9022293495977706,
+   "kendall": 0.7450444292549555,
+   "top10_retained": 10
+  },
+  "1.5": {
+   "spearman": 0.8550396971449602,
+   "kendall": 0.6842105263157895,
+   "top10_retained": 9
+  },
+  "2.0": {
+   "spearman": 0.8205478731794521,
+   "kendall": 0.6459330143540669,
+   "top10_retained": 8
+  }
+ },
+ "robustness": {
+  "robust": [
+   "Bangkok",
+   "Chon Buri",
+   "Chiang Mai",
+   "Krabi",
+   "Phangnga",
+   "Phuket",
+   "Surat Thani",
+   "Songkhla"
+  ],
+  "conditional": [
+   "Trat",
+   "Chiang Rai",
+   "Rayong",
+   "Chumphon"
+  ],
+  "counts": {
+   "robust": 8,
+   "conditional": 4,
+   "not prioritised": 65
+  },
+  "share_top10": {
+   "Bangkok": 1.0,
+   "Chon Buri": 1.0,
+   "Trat": 0.7804878048780488,
+   "Rayong": 0.36585365853658536,
+   "Chiang Rai": 0.5853658536585366,
+   "Chiang Mai": 1.0,
+   "Krabi": 1.0,
+   "Chumphon": 0.2682926829268293,
+   "Phangnga": 1.0,
+   "Phuket": 1.0,
+   "Surat Thani": 1.0,
+   "Songkhla": 1.0
+  }
+ },
+ "top10": {
+  "0.0": [
+   "Phuket",
+   "Krabi",
+   "Bangkok",
+   "Surat Thani",
+   "Phangnga",
+   "Chon Buri",
+   "Chiang Mai",
+   "Trat",
+   "Chiang Rai",
+   "Songkhla"
+  ],
+  "1.0": [
+   "Phuket",
+   "Bangkok",
+   "Surat Thani",
+   "Chon Buri",
+   "Krabi",
+   "Phangnga",
+   "Songkhla",
+   "Chiang Mai",
+   "Trat",
+   "Chiang Rai"
+  ],
+  "2.0": [
+   "Phuket",
+   "Bangkok",
+   "Surat Thani",
+   "Chon Buri",
+   "Songkhla",
+   "Krabi",
+   "Phangnga",
+   "Chumphon",
+   "Chiang Mai",
+   "Rayong"
+  ]
+ },
+ "pareto": {
+  "n": 3,
+  "members": [
+   "Nonthaburi",
+   "Songkhla",
+   "Phuket"
+  ]
+ },
+ "leader_path": [
+  {
+   "province": "Phuket",
+   "lam_from": 0.0,
+   "lam_to": 50.0
+  }
+ ],
+ "leader_breaks": [],
+ "leaders_on_frontier": true,
+ "leader_risk_nonincreasing": true,
+ "candidates": {
+  "names": [
+   "Bangkok",
+   "Prachuap Khiri Khan",
+   "Chon Buri",
+   "Trat",
+   "Rayong",
+   "Chiang Rai",
+   "Chiang Mai",
+   "Mae Hong Son",
+   "Krabi",
+   "Chumphon",
+   "Phangnga",
+   "Phuket",
+   "Surat Thani",
+   "Songkhla",
+   "Satun"
+  ],
+  "lowest_risk": "Songkhla"
+ },
+ "crossings": [
+  {
+   "overtaken": "Krabi",
+   "overtaker": "Bangkok",
+   "lam": 0.03262621560304067,
+   "ps_i": 197.2564081932895,
+   "r_i": 0.7631578947368421,
+   "ps_j": 193.70360102788308,
+   "r_j": 0.19736842105263158
+  },
+  {
+   "overtaken": "Chiang Rai",
+   "overtaker": "Songkhla",
+   "lam": 0.1098223234703477,
+   "ps_i": 95.13614174008896,
+   "r_i": 0.9605263157894737,
+   "ps_j": 86.43117975084745,
+   "r_j": 0.039473684210526314
+  },
+  {
+   "overtaken": "Mae Hong Son",
+   "overtaker": "Rayong",
+   "lam": 0.126358903122019,
+   "ps_i": 61.695260991531505,
+   "r_i": 0.881578947368421,
+   "ps_j": 57.172833985460855,
+   "r_j": 0.23684210526315788
+  },
+  {
+   "overtaken": "Trat",
+   "overtaker": "Songkhla",
+   "lam": 0.16656605495120827,
+   "ps_i": 98.09897793615428,
+   "r_i": 0.8552631578947368,
+   "ps_j": 86.43117975084745,
+   "r_j": 0.039473684210526314
+  },
+  {
+   "overtaken": "Phangnga",
+   "overtaker": "Chon Buri",
+   "lam": 0.1968129961466814,
+   "ps_i": 157.558212249429,
+   "r_i": 0.5789473684210527,
+   "ps_j": 148.76740079793768,
+   "r_j": 0.2631578947368421
+  },
+  {
+   "overtaken": "Mae Hong Son",
+   "overtaker": "Prachuap Khiri Khan",
+   "lam": 0.2091134897551216,
+   "ps_i": 61.695260991531505,
+   "r_i": 0.881578947368421,
+   "ps_j": 55.24536525557519,
+   "r_j": 0.2894736842105263
+  },
+  {
+   "overtaken": "Krabi",
+   "overtaker": "Surat Thani",
+   "lam": 0.2525834322821681,
+   "ps_i": 197.2564081932895,
+   "r_i": 0.7631578947368421,
+   "ps_j": 175.82091151610038,
+   "r_j": 0.25
+  },
+  {
+   "overtaken": "Chiang Mai",
+   "overtaker": "Songkhla",
+   "lam": 0.33771192880767953,
+   "ps_i": 112.5829520245719,
+   "r_i": 0.9473684210526315,
+   "ps_j": 86.43117975084745,
+   "r_j": 0.039473684210526314
+  },
+  {
+   "overtaken": "Mae Hong Son",
+   "overtaker": "Chumphon",
+   "lam": 0.38782829234751653,
+   "ps_i": 61.695260991531505,
+   "r_i": 0.881578947368421,
+   "ps_j": 47.38370096186095,
+   "r_j": 0.07894736842105263
+  },
+  {
+   "overtaken": "Satun",
+   "overtaker": "Rayong",
+   "lam": 0.4203670259804034,
+   "ps_i": 67.52635565384627,
+   "r_i": 0.7105263157894737,
+   "ps_j": 57.172833985460855,
+   "r_j": 0.23684210526315788
+  },
+  {
+   "overtaken": "Satun",
+   "overtaker": "Prachuap Khiri Khan",
+   "lam": 0.6232049336320895,
+   "ps_i": 67.52635565384627,
+   "r_i": 0.7105263157894737,
+   "ps_j": 55.24536525557519,
+   "r_j": 0.2894736842105263
+  },
+  {
+   "overtaken": "Satun",
+   "overtaker": "Chumphon",
+   "lam": 0.7108418318283393,
+   "ps_i": 67.52635565384627,
+   "r_i": 0.7105263157894737,
+   "ps_j": 47.38370096186095,
+   "r_j": 0.07894736842105263
+  },
+  {
+   "overtaken": "Krabi",
+   "overtaker": "Chon Buri",
+   "lam": 0.7868598555611857,
+   "ps_i": 197.2564081932895,
+   "r_i": 0.7631578947368421,
+   "ps_j": 148.76740079793768,
+   "r_j": 0.2631578947368421
+  },
+  {
+   "overtaken": "Prachuap Khiri Khan",
+   "overtaker": "Chumphon",
+   "lam": 0.8403830453187586,
+   "ps_i": 55.24536525557519,
+   "r_i": 0.2894736842105263,
+   "ps_j": 47.38370096186095,
+   "r_j": 0.07894736842105263
+  },
+  {
+   "overtaken": "Chiang Rai",
+   "overtaker": "Rayong",
+   "lam": 1.1722943527350616,
+   "ps_i": 95.13614174008896,
+   "r_i": 0.9605263157894737,
+   "ps_j": 57.172833985460855,
+   "r_j": 0.23684210526315788
+  },
+  {
+   "overtaken": "Chiang Rai",
+   "overtaker": "Chumphon",
+   "lam": 1.2565590655917929,
+   "ps_i": 95.13614174008896,
+   "r_i": 0.9605263157894737,
+   "ps_j": 47.38370096186095,
+   "r_j": 0.07894736842105263
+  },
+  {
+   "overtaken": "Rayong",
+   "overtaker": "Chumphon",
+   "lam": 1.4591458095167285,
+   "ps_i": 57.172833985460855,
+   "r_i": 0.23684210526315788,
+   "ps_j": 47.38370096186095,
+   "r_j": 0.07894736842105263
+  },
+  {
+   "overtaken": "Trat",
+   "overtaker": "Chumphon",
+   "lam": 1.5470994293689655,
+   "ps_i": 98.09897793615428,
+   "r_i": 0.8552631578947368,
+   "ps_j": 47.38370096186095,
+   "r_j": 0.07894736842105263
+  },
+  {
+   "overtaken": "Chiang Rai",
+   "overtaker": "Prachuap Khiri Khan",
+   "lam": 1.562798678144656,
+   "ps_i": 95.13614174008896,
+   "r_i": 0.9605263157894737,
+   "ps_j": 55.24536525557519,
+   "r_j": 0.2894736842105263
+  },
+  {
+   "overtaken": "Trat",
+   "overtaker": "Rayong",
+   "lam": 1.5947000867177685,
+   "ps_i": 98.09897793615428,
+   "r_i": 0.8552631578947368,
+   "ps_j": 57.172833985460855,
+   "r_j": 0.23684210526315788
+  },
+  {
+   "overtaken": "Phangnga",
+   "overtaker": "Songkhla",
+   "lam": 1.6231747582631715,
+   "ps_i": 157.558212249429,
+   "r_i": 0.5789473684210527,
+   "ps_j": 86.43117975084745,
+   "r_j": 0.039473684210526314
+  },
+  {
+   "overtaken": "Chiang Mai",
+   "overtaker": "Chumphon",
+   "lam": 1.8110050807718825,
+   "ps_i": 112.5829520245719,
+   "r_i": 0.9473684210526315,
+   "ps_j": 47.38370096186095,
+   "r_j": 0.07894736842105263
+  },
+  {
+   "overtaken": "Krabi",
+   "overtaker": "Songkhla",
+   "lam": 1.9050580569762103,
+   "ps_i": 197.2564081932895,
+   "r_i": 0.7631578947368421,
+   "ps_j": 86.43117975084745,
+   "r_j": 0.039473684210526314
+  }
+ ],
+ "crossings_verified": true,
+ "persistence": {
+  "ps_spearman": 0.9923234660076764,
+  "ps_spearman_p": 7.689702486933884e-70,
+  "ps_kendall": 0.9446343130553656,
+  "top10_overlap": 10,
+  "n_above100_2023": 7,
+  "n_above100_2024": 7,
+  "cv_spearman": 0.4782848730217151,
+  "cv_spearman_p": 1.0855195415897272e-05,
+  "ps23_median": 30.057004181953904,
+  "receipts_2023_total_mTHB": 2503011.6199999996,
+  "visits_2023_total": 319665394.0
+ }
+}

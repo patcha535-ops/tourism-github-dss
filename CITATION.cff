@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Code and data for: Decision Support for Provincial Tourism Yield Monitoring: A Punch Score Framework with Lever Diagnosis and Risk-Adjusted Prioritisation"
+authors:
+  - family-names: Samarnggoon
+    given-names: Patcharaporn
+    orcid: "https://orcid.org/0000-0003-3081-0605"
+version: 1.1.0
+date-released: 2026-11-18
+license: MIT

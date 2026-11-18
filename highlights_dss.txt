@@ -1,0 +1,5 @@
+Decision-analytic framework built on a relative-yield index for provincial tourism
+Exact lever identity separates visitor-mix and within-type spending effects
+Risk-adjusted ranking: top province is Pareto-efficient, with explicit rank-reversal thresholds
+Phuket leads at every risk aversion; eight provinces are robust top-ten priorities
+Yield ranking is highly persistent between 2023 and 2024 (Spearman 0.99)

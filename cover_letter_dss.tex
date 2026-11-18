@@ -1,0 +1,36 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}\usepackage[utf8]{inputenc}\usepackage[margin=2.5cm]{geometry}\usepackage{xcolor}
+\usepackage[colorlinks=true,urlcolor=blue!50!black]{hyperref}
+\newif\ifdraft \drafttrue
+\newcommand{\todo}[1]{\ifdraft{\color{red}\textbf{[TODO: #1]}}\fi}
+\newcommand{\RepoDOI}{10.5281/zenodo.XXXXXXX}
+\setlength{\parindent}{0pt}\setlength{\parskip}{0.7em}
+\begin{document}
+Patcharaporn Samarnggoon\\Independent Researcher, Chiang Mai, Thailand\\patcha535@gmail.com\\ORCID: 0000-0003-3081-0605
+
+18 November 2026
+
+The Editors\\\emph{Decision Support Systems}
+
+\textbf{Re: Submission of a research article}
+
+Dear Editors,
+
+Please consider my manuscript, ``Decision Support for Provincial Tourism Yield Monitoring: A Punch Score Framework with Lever Diagnosis and Risk-Adjusted Prioritisation,'' for publication as a research article in \emph{Decision Support Systems}.
+
+The study addresses a screening problem in tourism monitoring. Visitor volumes alone do not reveal where tourism receipts are generated, and a monitoring authority with limited attention must decide which provinces to examine first and which yield lever, visitor mix or spending within visitor types, to examine within each. The manuscript formalises this as a decision-analytic framework built on the Punch Score, a relative-yield index (100 is the national benchmark), with a lever diagnosis that splits yield differences exactly into a composition and a within-type component, and a risk-adjusted score with a multiplicative volatility penalty. Four propositions establish consistent aggregation of the index across regional and provincial levels, an exact lever identity, Pareto efficiency of the top-ranked province, and monotone comparative statics with explicit rank-reversal thresholds in the risk-aversion parameter. A screening procedure based on these results is illustrated with official data for all 77 Thai provinces in 2024 and monthly data for 2023--2024.
+
+In the data, Bangkok and the South account for 33.2\% of recorded visits but 65.9\% of receipts; provincial Gini coefficients are 0.827 for receipts and 0.558 for visits; visitor composition accounts for 44.6\% of cross-provincial variance in receipts per visit; and spatial association is positive. In the decision illustration, risk (the volatility of monthly visits) is almost uncorrelated with yield, Phuket ranks first for every value of the risk-aversion parameter, eight provinces are robust top-ten priorities and four depend on risk aversion, and Punch Score rankings are highly persistent between 2023 and 2024.
+
+I want to be explicit about the scope of the contribution. The propositions are mathematical consequences of the definitions, not empirical findings, and I do not claim a new axiomatic decision theory. The study does not claim causal effects, productivity measurement, elicitation of decision makers' risk attitudes, or validation of an implemented decision-support system with users. Its relevance to decision support lies in stating exactly what the screening outputs mean and when they change, and in showing that they can be computed reproducibly from official statistics. The dataset, validation and analysis code, numerical checks of the propositions, and random seeds are provided in supplementary material and archived at \url{https://doi.org/\RepoDOI}.\todo{Insert the DOI of the release of this version.}
+
+For editorial transparency, the anonymised references concern two related manuscripts: \emph{When Does Feedback-Driven Weighting Outperform Preference Elicitation? Evidence from Simulation and Empirical Evaluation} (under review) and \emph{A Conceptual Weighted Punch Score Framework for Research Assessment} (\emph{Journal of Intellectual Capital}, JIC-11-2026-0780). This submission does not evaluate those frameworks. \todo{Optional: state that a different manuscript on the Punch Score Decision Framework (DECSUP-D-26-04031) was previously returned by this journal as outside its scope, and that the present manuscript is a different work.}
+
+\todo{Confirm before submission that the manuscript is not under consideration elsewhere; the earlier version submitted to \emph{Tourism Economics} must first be withdrawn or decided, and add the statement ``This manuscript is not under consideration elsewhere.''}
+
+I am the sole author and was responsible for all aspects of the research and manuscript preparation. I declare no competing interests and received no specific research funding. AI assistance, including Claude (Anthropic), was used for drafting and coding support; I reviewed and edited the content and take full responsibility for the manuscript.
+
+Thank you for considering my submission.
+
+Sincerely,\\Patcharaporn Samarnggoon
+\end{document}
